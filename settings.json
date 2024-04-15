@@ -1,0 +1,10 @@
+{
+  "data_augmentation": {
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  "model_training": {
+    "resize_width": 192,
+    "resize_height": 108
+  }
+}
