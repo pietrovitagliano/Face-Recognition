@@ -86,7 +86,6 @@ if __name__ == '__main__':
 
         face_detected, coords = detect_face(frame=frame, face_detector=face_detector)
         if face_detected >= face_detection_threshold:
-            #frame = cv2.resize(frame, (crop_width, crop_height))
             # Get frame resolution
             frame_width: int = frame.shape[1]
             frame_height: int = frame.shape[0]
@@ -97,7 +96,7 @@ if __name__ == '__main__':
                                                   frame_width,
                                                   frame_height]).astype(int)
 
-            # Draw the rectangles around the face
+            # Draw the rectangle. with opposite corners at (x1, y1) and (x2, y2), around the face
             draw_rectangles_around_face(frame=frame, point1=(x1, y1), point2=(x2, y2))
 
         cv2.imshow('Face Detector', frame)

@@ -227,7 +227,7 @@ if __name__ == '__main__':
     image_dataset: tf.data.Dataset = tf.data.Dataset.list_files(images_pattern, shuffle=False)
 
     # Plot the images
-    # plot_images(image_dataset=image_dataset)
+    plot_images(image_dataset=image_dataset)
 
     # Apply Image Augmentation and export the augmented images and labels
     # NOTE: This process requires to use the LabelMe tool,
