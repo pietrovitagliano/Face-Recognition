@@ -26,5 +26,5 @@ This project utilizes Python and TensorFlow to perform face recognition using im
   A validation dataset is also used to evaluate the model's performance during training.
   This helps to identify overfitting and ensure the model generalizes well to unseen data.
 
-## Face Recognition
+## Model Usage
 The model can be used to recognize face in images from the webcam or use pre-existing images.
