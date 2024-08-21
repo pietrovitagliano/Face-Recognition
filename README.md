@@ -1,5 +1,5 @@
 # Face-Recognition
-This project utilizes Python and TensorFlow to perform face recognition using images captured from a webcam. It employs the tool labelme for data preparation, enabling users to define facial boundaries within images. Data augmentation is applied by incorporating various random transformations. The model is constructed by building upon the pre-existing VGG16 model, which is designed for image recognition, and adding additional layers. This final model facilitates face detection within images. Additionally, it can process video frames, enabling face recognition in real-time video streams.
+This project utilizes Python and TensorFlow to perform face recognition using the images captured from a PC camera. It employs the tool labelme for data preparation, enabling users to define facial boundaries within images. Data augmentation is applied by incorporating various random transformations. The model is constructed by building upon the pre-existing VGG16 model, which is designed for image recognition, and adding additional layers. This final model facilitates face detection within images. Additionally, it can process video frames, enabling face recognition in real-time video streams.
 
 ## Project Setup
 - ### Install Requirements
