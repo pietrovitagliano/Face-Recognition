@@ -8,7 +8,7 @@ import tensorflow as tf
 
 import keras
 from keras.losses import BinaryCrossentropy
-from keras.optimizers.legacy import Adam  # Legacy Adam is faster on M Series Macs
+from keras.optimizers import Adam
 
 from face_detector_model import FaceDetectorModel, compute_lr_decay, localization_loss_func, plot_training_performance
 from utils import image_to_tensor, plot_image_with_rectangle, gpu_check, apply_gpu_optimizations
